@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace shop.Models.EntityModels
 {
-    class Order
+   public class Order:BaseEntity
     {
     }
 }

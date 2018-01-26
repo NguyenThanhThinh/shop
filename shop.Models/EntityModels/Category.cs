@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace shop.Models.EntityModels
 {
-    class Category
+    public class Category : BaseEntity
     {
+        public int ParentId { get; set; }
+
+        public int? SortOrder { get; set; }
+
+        public string Name { get; set; }
+
     }
 }
